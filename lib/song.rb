@@ -1,4 +1,4 @@
-class Song
+class Song(name, artist, genre)
 
   @@song_count = 0
 
