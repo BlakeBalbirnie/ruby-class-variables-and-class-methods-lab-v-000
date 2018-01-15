@@ -1,4 +1,5 @@
 class Song
+  
   @@song_count = 0
 
   def initialize
@@ -8,4 +9,13 @@ class Song
   def self.count
     @@song_count
   end
+
+  def name=(name)
+    @name = name
+  end
+   
+  def name
+    @name
+  end
+
 end
